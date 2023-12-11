@@ -3,16 +3,8 @@ const Schema = mongoose.Schema
 
 const nodeSchema = new Schema(
     {
-        key:{
-            type: String,
-            required: true
-        },
-        checked: {
-            type: Boolean,
-            required: true,
-        },
-        partialChecked: {
-            type: Boolean,
+        checkboxs: {
+            type: Object,
             required: true,
         },
     },
