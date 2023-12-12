@@ -36,7 +36,7 @@ const node_create = async (req, res) => {
     const node = new Node(values)
     node.save()
         .then((result) => {
-            res.json({ result })
+            res.json(result)
             console.log('node added succesfully')
         })
         .catch((err) => {

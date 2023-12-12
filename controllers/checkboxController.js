@@ -6,7 +6,7 @@ const chechbox_get = (req, res) => {
         .lean()
         .then((result) => {
             if (result) {
-                res.json({ result })
+                res.json(result)
             } else {
                 res.status(404).json({ message: 'this item is not find' })
             }
