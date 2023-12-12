@@ -13,6 +13,12 @@ function incremenIndex(inputString) {
 
 async function generateNode(values) {
     try {
+        if (values.key) {
+            return {
+                ...values,
+                expanded: false,
+            }
+        }
         const findQuery = values._ref ? { _ref: values._ref } : { _ref: { $exists: false } }
         const result = await Node.find(findQuery).sort({ createdAt: -1 }).limit(1)
 
