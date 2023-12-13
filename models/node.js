@@ -10,6 +10,7 @@ const nodeSchema = new Schema(
         key: {
             type: String,
             required: true,
+            unique: true,
         },
         expanded: {
             type: Boolean,
@@ -26,10 +27,14 @@ const nodeSchema = new Schema(
         parentKey: {
             type: String,
             required: false,
-        }
+        },
     },
     { timestamps: true }
 )
 
+nodeSchema.index(
+    { label: 1, _ref: 1 },
+    { unique: true, partialFilterExpression: { _ref: { $exists: true } } }
+)
 const Node = mongoose.model('Node', nodeSchema)
 module.exports = Node

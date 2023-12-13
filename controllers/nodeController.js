@@ -19,7 +19,7 @@ const node_get = (req, res) => {
             if (result) {
                 res.json(result)
             } else {
-                res.status(404).json({ message: 'this item is not find' })
+                res.status(404).json({ err: 'this item is not find' })
             }
         })
         .catch((err) => {
@@ -29,10 +29,9 @@ const node_get = (req, res) => {
 
 const node_create = async (req, res) => {
     if (!req?.body?.label) {
-        res.status(404).json({ message: 'there is no label in body' })
+        res.status(404).json({ err: 'there is no label in body' })
     }
     const values = await f.generateNode(req.body)
-    // condition
     const node = new Node(values)
     node.save()
         .then((result) => {
@@ -40,7 +39,28 @@ const node_create = async (req, res) => {
             console.log('node added succesfully')
         })
         .catch((err) => {
-            res.status(500).json({ err })
+            if (err.code === 11000) {
+                if (err.keyValue.key) {
+                    res.status(500).json({
+                        messege: err,
+                        err: `Duplicate key error for the key ${err.keyValue.key}`,
+                    })
+                }
+                if (err.keyValue.label && err.keyValue._ref) {
+                    res.status(500).json({
+                        messege: err,
+                        err: `Combination of label and _ref must be unique. for label : ${err.keyValue.label}`,
+                    })
+                }
+                if (err.keyValue.label && !err.keyValue._ref) {
+                    res.status(500).json({
+                        messege: err,
+                        err: `Duplicate label error for the label : ${err.keyValue.label}`,
+                    })
+                }
+            } else {
+                res.status(500).json({ err })
+            }
         })
 }
 
@@ -53,7 +73,7 @@ const node_update = (req, res) => {
                 res.json({ oldData: result, dataUpdated: data })
                 console.log('node updated succesfully')
             } else {
-                res.status(404).json({ message: 'this item is not exist' })
+                res.status(404).json({ err: 'this item is not exist' })
             }
         })
         .catch((err) => {
@@ -69,7 +89,7 @@ const node_remove = (req, res) => {
                 res.json({ removedData: result, messege: 'node removed succesfully' })
                 console.log('node removed succesfully')
             } else {
-                res.status(404).json({ message: 'this item is not exist' })
+                res.status(404).json({ err: 'this item is not exist' })
             }
         })
         .catch((err) => {

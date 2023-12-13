@@ -8,7 +8,7 @@ const chechbox_get = (req, res) => {
             if (result) {
                 res.json(result)
             } else {
-                res.status(404).json({ message: 'this item is not find' })
+                res.status(404).json({ err: 'this item is not find' })
             }
         })
         .catch((err) => {
@@ -25,7 +25,7 @@ const chechbox_update = (req, res) => {
                 res.json({ result, dataUpdated: data })
                 console.log('node updated succesfully')
             } else {
-                res.status(404).json({ message: 'this item is not exist' })
+                res.status(404).json({ err: 'this item is not exist' })
             }
         })
         .catch((err) => {
