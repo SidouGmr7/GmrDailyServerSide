@@ -1,0 +1,9 @@
+.git/
+.gitignore
+.build/                # Existing builds
+.cache/                # Existing cache
+.dockerignore
+node_modules/         # Installed inside container
+nginx/
+package-lock.json
+yarn.lock
