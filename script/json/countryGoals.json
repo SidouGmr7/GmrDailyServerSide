@@ -241,7 +241,13 @@
     },
     {
         "name": "Hossam Hassan",
-        "country": { "name": "Egypt", "goals": 68, "match": 0, "ratio": 0.39, "start": "1985–2006" }
+        "country": {
+            "name": "Egypt",
+            "goals": 68,
+            "match": 176,
+            "ratio": 0.39,
+            "start": "1985–2006"
+        }
     },
     {
         "name": "Didier Drogba",
@@ -415,7 +421,7 @@
     },
     {
         "name": "Mohamed Salah",
-        "country": { "name": "Egypt", "goals": 56, "match": 0, "ratio": 0.58, "start": "2011–" }
+        "country": { "name": "Egypt", "goals": 56, "match": 97, "ratio": 0.58, "start": "2011–" }
     },
     {
         "name": "Samuel Eto'o",

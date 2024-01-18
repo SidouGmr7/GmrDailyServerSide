@@ -23,13 +23,7 @@ function html($) {
     $selectedTable.find('tr').each((index, row) => {
         replaceHtmlByText($(row).find('td:first-child'), 'a', 'name')
         replaceHtmlByText($(row).find('td:nth-child(2)'), 'a', 'country')
-        replaceHtmlByText($(row).find('td:nth-child(3)'), 'a', 'goals', (str) => {
-            let string = str
-            if (!/^\d+$/.test(str)) {
-                string = str.substring(0, 2)
-            }
-            return string
-        })
+        replaceHtmlByText($(row).find('td:nth-child(3)'), 'a', 'goals')
         replaceHtmlByText($(row).find('td:nth-child(4)'), false, 'match')
         replaceHtmlByText($(row).find('td:nth-child(5)'), false, 'ratio')
         replaceHtmlByText($(row).find('td:nth-child(6)'), false, 'start')

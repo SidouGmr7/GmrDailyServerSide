@@ -26,20 +26,13 @@ function correctionCssSelector(replaces) {
     return `${base}${not}${replace}`
 }
 
-function replaceHtmlByText($targeRow, targetText, className, fixText) {
+function replaceHtmlByText($targeRow, targetText, className) {
+    $targeRow.find('sup').remove()
     if (targetText) {
         let playerNameText = $targeRow.find(targetText).text()
-        if (fixText) {
-            playerNameText = fixText(playerNameText)
-        }
-        $targeRow.text(playerNameText)
-    }
-    if ($targeRow.children().length > 0) {
-        const playerNameText = $targeRow.find('span').text()
         $targeRow.text(playerNameText)
     }
     $targeRow.replaceWith(`<div class='${className}'>${$targeRow.text()}</div>`)
-    $targeRow.find('sup').remove()
 }
 
 module.exports = {
