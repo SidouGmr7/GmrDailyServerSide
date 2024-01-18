@@ -13,15 +13,15 @@ const playerSchema = new Schema(
                 required: true,
             },
             goals: {
-                type: String,
+                type: Number,
                 required: true,
             },
             match: {
-                type: String,
+                type: Number,
                 required: true,
             },
             ratio: {
-                type: String,
+                type: Number,
                 required: true,
             },
             start: {

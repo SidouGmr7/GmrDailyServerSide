@@ -5,7 +5,7 @@ const _ = require('lodash')
 
 const players_get = async (req, res) => {
     try {
-        const result = await Player.find().lean()
+        const result = await Player.find().sort({ 'country.goals': -1 }).lean()
         res.json(result)
     } catch (err) {
         res.status(500).json({ err })

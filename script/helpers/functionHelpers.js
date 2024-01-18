@@ -1,10 +1,11 @@
 const cheerio = require('cheerio')
 
-function parserHtmlToJSON(html, selector, field = false) {
+function parserHtmlToJSON(html, selector, field = false, convert = false) {
     const $ = cheerio.load(html)
     const names = $(`.${selector}`)
         .map((index, element) => {
-            return { [field || selector]: $(element).text() }
+            const result = convert ? Number($(element).text()) : $(element).text()
+            return { [field || selector]: result }
         })
         .get()
     return names
@@ -25,9 +26,12 @@ function correctionCssSelector(replaces) {
     return `${base}${not}${replace}`
 }
 
-function replaceHtmlByText($targeRow, targetText, className) {
+function replaceHtmlByText($targeRow, targetText, className, fixText) {
     if (targetText) {
-        const playerNameText = $targeRow.find(targetText).text()
+        let playerNameText = $targeRow.find(targetText).text()
+        if (fixText) {
+            playerNameText = fixText(playerNameText)
+        }
         $targeRow.text(playerNameText)
     }
     if ($targeRow.children().length > 0) {

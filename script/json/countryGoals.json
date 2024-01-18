@@ -1,1 +1,680 @@
-[{"name":"Cristiano Ronaldo","country":{"name":"Portugal","goals":"128","match":"205"}},{"name":"Ali Daei","country":{"name":"Iran","goals":"109","match":"149"}},{"name":"Lionel Messi","country":{"name":"Argentina","goals":"106","match":"180"}},{"name":"Sunil Chhetri","country":{"name":"India","goals":"93","match":"146"}},{"name":"Mokhtar Dahari","country":{"name":"Malaysia","goals":"89","match":"142"}},{"name":"Ali Mabkhout","country":{"name":"United Arab Emirates","goals":"85","match":"115"}},{"name":"Ferenc Puskás","country":{"name":"HungarySpain","goals":"84","match":"89"}},{"name":"Romelu Lukaku","country":{"name":"Belgium","goals":"83","match":"113"}},{"name":"Robert Lewandowski","country":{"name":"Poland","goals":"82","match":"146"}},{"name":"Godfrey Chitalu","country":{"name":"Zambia","goals":"79","match":"111"}},{"name":"Neymar ","country":{"name":"Brazil","goals":"79","match":"128"}},{"name":"Hussein Saeed","country":{"name":"Iraq","goals":"78","match":"137"}},{"name":" Pelé","country":{"name":"Brazil","goals":"77","match":"92"}},{"name":"Sándor Kocsis","country":{"name":"Hungary","goals":"75","match":"68"}},{"name":"Kunishige Kamamoto","country":{"name":"Japan","goals":"75","match":"76"}},{"name":"Bashar Abdullah","country":{"name":"Kuwait","goals":"75","match":"134"}},{"name":"Majed Abdullah","country":{"name":"Saudi Arabia","goals":"72","match":"117"}},{"name":"Kinnah Phiri","country":{"name":"Malawi","goals":"71","match":"117"}},{"name":"Kiatisuk Senamuang","country":{"name":"Thailand","goals":"71","match":"134"}},{"name":"Miroslav Klose","country":{"name":"Germany","goals":"71","match":"137"}},{"name":"Piyapong Pue-on","country":{"name":"Thailand","goals":"70","match":"100"}},{"name":"Abdul Kadir","country":{"name":"Indonesia","goals":"70","match":"111"}},{"name":"Stern John","country":{"name":"Trinidad and Tobago","goals":"70","match":"115"}},{"name":"Gerd Müller","country":{"name":"West Germany","goals":"68","match":"62"}},{"name":"Carlos Ruiz","country":{"name":"Guatemala","goals":"68","match":"133"}},{"name":"Luis Suárez","country":{"name":"Uruguay","goals":"68","match":"138"}},{"name":"Robbie Keane","country":{"name":"Republic of Ireland","goals":"68","match":"146"}},{"name":"Hossam Hassan","country":{"name":"Egypt","goals":"68","match":""}},{"name":"Didier Drogba","country":{"name":"Ivory Coast","goals":"65","match":"105"}},{"name":"Edin Džeko","country":{"name":"Bosnia and Herzegovina","goals":"65","match":"133"}},{"name":"Teerasil Dangda","country":{"name":"Thailand","goals":"64","match":"127"}},{"name":"Jasem Al-Huwaidi","country":{"name":"Kuwait","goals":"63","match":"83"}},{"name":"Harry Kane","country":{"name":"England","goals":"62","match":"89"}},{"name":" Ronaldo","country":{"name":"Brazil","goals":"62","match":"98"}},{"name":"Ahmed Radhi","country":{"name":"Iraq","goals":"62","match":"121"}},{"name":"Zlatan Ibrahimović","country":{"name":"Sweden","goals":"62","match":"122"}},{"name":"Abdul Ghani Minhat","country":{"name":"MalayaMalaysia","goals":"61","match":"71"}},{"name":"Imre Schlosser","country":{"name":"Hungary","goals":"59[a]","match":"68"}},{"name":"David Villa","country":{"name":"Spain","goals":"59","match":"98"}},{"name":"Ali Ashfaq","country":{"name":"Maldives","goals":"58","match":"98"}},{"name":"Cha Bum-kun","country":{"name":"South Korea","goals":"58","match":"136"}},{"name":"Edinson Cavani","country":{"name":"Uruguay","goals":"58","match":"136"}},{"name":"Aleksandar Mitrović","country":{"name":"Serbia","goals":"57","match":"87"}},{"name":"Carlos Pavón","country":{"name":"Honduras","goals":"57","match":"101"}},{"name":"Clint Dempsey","country":{"name":"United States","goals":"57","match":"141"}},{"name":"Younis Mahmoud","country":{"name":"Iraq","goals":"57","match":"148"}},{"name":"Landon Donovan","country":{"name":"United States","goals":"57","match":"157"}},{"name":"Gabriel Batistuta","country":{"name":"Argentina","goals":"56","match":"78"}},{"name":"Mohamed Salah","country":{"name":"Egypt","goals":"56","match":""}},{"name":"Samuel Eto'o","country":{"name":"Cameroon","goals":"56","match":"118"}},{"name":"Olivier Giroud","country":{"name":"France","goals":"56","match":"129"}},{"name":"Bader Al-Mutawa","country":{"name":"Kuwait","goals":"56[e]","match":"196"}},{"name":" Romário","country":{"name":"Brazil","goals":"55","match":"70"}},{"name":"Kazuyoshi Miura","country":{"name":"Japan","goals":"55","match":"89"}},{"name":"Jan Koller","country":{"name":"Czech Republic","goals":"55","match":"91"}},{"name":"Iswadi Idris","country":{"name":"Indonesia","goals":"55","match":"97"}},{"name":"Fandi Ahmad","country":{"name":"Singapore","goals":"55","match":"101"}},{"name":"Joachim Streich","country":{"name":"East Germany","goals":"55[f]","match":"102"}},{"name":"Wayne Rooney","country":{"name":"England","goals":"53","match":"120"}},{"name":"Poul Nielsen","country":{"name":"Denmark","goals":"52","match":"38"}},{"name":"Phil Younghusband","country":{"name":"Philippines","goals":"52","match":"108"}},{"name":"Javier Hernández","country":{"name":"Mexico","goals":"52","match":"109"}},{"name":"Jon Dahl Tomasson","country":{"name":"Denmark","goals":"52","match":"112"}},{"name":"Adnan Al Talyani","country":{"name":"United Arab Emirates","goals":"52","match":"161"}},{"name":"Lajos Tichy","country":{"name":"Hungary","goals":"51","match":"72"}},{"name":"Lê Công Vinh","country":{"name":"Vietnam","goals":"51","match":"83"}},{"name":"Almoez Ali","country":{"name":"Qatar","goals":"51","match":"106"}},{"name":"Asamoah Gyan","country":{"name":"Ghana","goals":"51","match":"109"}},{"name":"Hakan Şükür","country":{"name":"Turkey","goals":"51","match":"112"}},{"name":"Thierry Henry","country":{"name":"France","goals":"51","match":"123"}},{"name":"Alexis Sánchez","country":{"name":"Chile","goals":"51","match":"160"}},{"name":"Sardar Azmoun","country":{"name":"Iran","goals":"50","match":"76"}},{"name":"Karim Bagheri","country":{"name":"Iran","goals":"50","match":"87"}},{"name":"Robin van Persie","country":{"name":"Netherlands","goals":"50","match":"102"}},{"name":"Hwang Sun-hong","country":{"name":"South Korea","goals":"50","match":"103"}},{"name":"Tim Cahill","country":{"name":"Australia","goals":"50","match":"108"}},{"name":"Shinji Okazaki","country":{"name":"Japan","goals":"50","match":"119"}},{"name":"Zainal Abidin Hassan","country":{"name":"Malaysia","goals":"50","match":"129"}}]
+[
+    {
+        "name": "Cristiano Ronaldo",
+        "country": {
+            "name": "Portugal",
+            "goals": 128,
+            "match": 205,
+            "ratio": 0.62,
+            "start": "2003–"
+        }
+    },
+    {
+        "name": "Ali Daei",
+        "country": {
+            "name": "Iran",
+            "goals": 109,
+            "match": 149,
+            "ratio": 0.73,
+            "start": "1993–2006"
+        }
+    },
+    {
+        "name": "Lionel Messi",
+        "country": {
+            "name": "Argentina",
+            "goals": 106,
+            "match": 180,
+            "ratio": 0.59,
+            "start": "2005–"
+        }
+    },
+    {
+        "name": "Sunil Chhetri",
+        "country": { "name": "India", "goals": 93, "match": 146, "ratio": 0.64, "start": "2005–" }
+    },
+    {
+        "name": "Mokhtar Dahari",
+        "country": {
+            "name": "Malaysia",
+            "goals": 89,
+            "match": 142,
+            "ratio": 0.63,
+            "start": "1972–1985"
+        }
+    },
+    {
+        "name": "Ali Mabkhout",
+        "country": {
+            "name": "United Arab Emirates",
+            "goals": 85,
+            "match": 115,
+            "ratio": 0.74,
+            "start": "2009–"
+        }
+    },
+    {
+        "name": "Ferenc Puskás",
+        "country": {
+            "name": "HungarySpain",
+            "goals": 84,
+            "match": 89,
+            "ratio": 0.94,
+            "start": "1945–1962"
+        }
+    },
+    {
+        "name": "Romelu Lukaku",
+        "country": { "name": "Belgium", "goals": 83, "match": 113, "ratio": 0.73, "start": "2010–" }
+    },
+    {
+        "name": "Robert Lewandowski",
+        "country": { "name": "Poland", "goals": 82, "match": 146, "ratio": 0.56, "start": "2008–" }
+    },
+    {
+        "name": "Godfrey Chitalu",
+        "country": {
+            "name": "Zambia",
+            "goals": 79,
+            "match": 111,
+            "ratio": 0.71,
+            "start": "1968–1980"
+        }
+    },
+    {
+        "name": "Neymar ",
+        "country": { "name": "Brazil", "goals": 79, "match": 128, "ratio": 0.62, "start": "2010–" }
+    },
+    {
+        "name": "Hussein Saeed",
+        "country": {
+            "name": "Iraq",
+            "goals": 78,
+            "match": 137,
+            "ratio": 0.57,
+            "start": "1977–1990"
+        }
+    },
+    {
+        "name": " Pelé",
+        "country": {
+            "name": "Brazil",
+            "goals": 77,
+            "match": 92,
+            "ratio": 0.84,
+            "start": "1957–1971"
+        }
+    },
+    {
+        "name": "Sándor Kocsis",
+        "country": {
+            "name": "Hungary",
+            "goals": 75,
+            "match": 68,
+            "ratio": 1.1,
+            "start": "1948–1956"
+        }
+    },
+    {
+        "name": "Kunishige Kamamoto",
+        "country": {
+            "name": "Japan",
+            "goals": 75,
+            "match": 76,
+            "ratio": 0.99,
+            "start": "1964–1977"
+        }
+    },
+    {
+        "name": "Bashar Abdullah",
+        "country": {
+            "name": "Kuwait",
+            "goals": 75,
+            "match": 134,
+            "ratio": 0.56,
+            "start": "1996–2007"
+        }
+    },
+    {
+        "name": "Majed Abdullah",
+        "country": {
+            "name": "Saudi Arabia",
+            "goals": 72,
+            "match": 117,
+            "ratio": 0.62,
+            "start": "1977–1994"
+        }
+    },
+    {
+        "name": "Kinnah Phiri",
+        "country": {
+            "name": "Malawi",
+            "goals": 71,
+            "match": 117,
+            "ratio": 0.61,
+            "start": "1973–1981"
+        }
+    },
+    {
+        "name": "Kiatisuk Senamuang",
+        "country": {
+            "name": "Thailand",
+            "goals": 71,
+            "match": 134,
+            "ratio": 0.53,
+            "start": "1993–2007"
+        }
+    },
+    {
+        "name": "Miroslav Klose",
+        "country": {
+            "name": "Germany",
+            "goals": 71,
+            "match": 137,
+            "ratio": 0.52,
+            "start": "2001–2014"
+        }
+    },
+    {
+        "name": "Piyapong Pue-on",
+        "country": {
+            "name": "Thailand",
+            "goals": 70,
+            "match": 100,
+            "ratio": 0.7,
+            "start": "1981–1997"
+        }
+    },
+    {
+        "name": "Abdul Kadir",
+        "country": {
+            "name": "Indonesia",
+            "goals": 70,
+            "match": 111,
+            "ratio": 0.63,
+            "start": "1967–1979"
+        }
+    },
+    {
+        "name": "Stern John",
+        "country": {
+            "name": "Trinidad and Tobago",
+            "goals": 70,
+            "match": 115,
+            "ratio": 0.61,
+            "start": "1995–2012"
+        }
+    },
+    {
+        "name": "Gerd Müller",
+        "country": {
+            "name": "West Germany",
+            "goals": 68,
+            "match": 62,
+            "ratio": 1.1,
+            "start": "1966–1974"
+        }
+    },
+    {
+        "name": "Carlos Ruiz",
+        "country": {
+            "name": "Guatemala",
+            "goals": 68,
+            "match": 133,
+            "ratio": 0.51,
+            "start": "1998–2016"
+        }
+    },
+    {
+        "name": "Luis Suárez",
+        "country": { "name": "Uruguay", "goals": 68, "match": 138, "ratio": 0.49, "start": "2007–" }
+    },
+    {
+        "name": "Robbie Keane",
+        "country": {
+            "name": "Republic of Ireland",
+            "goals": 68,
+            "match": 146,
+            "ratio": 0.47,
+            "start": "1998–2016"
+        }
+    },
+    {
+        "name": "Hossam Hassan",
+        "country": { "name": "Egypt", "goals": 68, "match": 0, "ratio": 0.39, "start": "1985–2006" }
+    },
+    {
+        "name": "Didier Drogba",
+        "country": {
+            "name": "Ivory Coast",
+            "goals": 65,
+            "match": 105,
+            "ratio": 0.62,
+            "start": "2002–2014"
+        }
+    },
+    {
+        "name": "Edin Džeko",
+        "country": {
+            "name": "Bosnia and Herzegovina",
+            "goals": 65,
+            "match": 133,
+            "ratio": 0.49,
+            "start": "2007–"
+        }
+    },
+    {
+        "name": "Teerasil Dangda",
+        "country": { "name": "Thailand", "goals": 64, "match": 127, "ratio": 0.5, "start": "2007–" }
+    },
+    {
+        "name": "Jasem Al-Huwaidi",
+        "country": {
+            "name": "Kuwait",
+            "goals": 63,
+            "match": 83,
+            "ratio": 0.76,
+            "start": "1992–2003"
+        }
+    },
+    {
+        "name": "Harry Kane",
+        "country": { "name": "England", "goals": 62, "match": 89, "ratio": 0.7, "start": "2015–" }
+    },
+    {
+        "name": " Ronaldo",
+        "country": {
+            "name": "Brazil",
+            "goals": 62,
+            "match": 98,
+            "ratio": 0.63,
+            "start": "1994–2011"
+        }
+    },
+    {
+        "name": "Ahmed Radhi",
+        "country": {
+            "name": "Iraq",
+            "goals": 62,
+            "match": 121,
+            "ratio": 0.51,
+            "start": "1982–1997"
+        }
+    },
+    {
+        "name": "Zlatan Ibrahimović",
+        "country": {
+            "name": "Sweden",
+            "goals": 62,
+            "match": 122,
+            "ratio": 0.51,
+            "start": "2001–2023"
+        }
+    },
+    {
+        "name": "Abdul Ghani Minhat",
+        "country": {
+            "name": "MalayaMalaysia",
+            "goals": 61,
+            "match": 71,
+            "ratio": 0.86,
+            "start": "1956–1966"
+        }
+    },
+    {
+        "name": "Imre Schlosser",
+        "country": {
+            "name": "Hungary",
+            "goals": 59,
+            "match": 68,
+            "ratio": 0.87,
+            "start": "1906–1927"
+        }
+    },
+    {
+        "name": "David Villa",
+        "country": { "name": "Spain", "goals": 59, "match": 98, "ratio": 0.6, "start": "2005–2017" }
+    },
+    {
+        "name": "Ali Ashfaq",
+        "country": { "name": "Maldives", "goals": 58, "match": 98, "ratio": 0.59, "start": "2003–" }
+    },
+    {
+        "name": "Cha Bum-kun",
+        "country": {
+            "name": "South Korea",
+            "goals": 58,
+            "match": 136,
+            "ratio": 0.43,
+            "start": "1972–1986"
+        }
+    },
+    {
+        "name": "Edinson Cavani",
+        "country": {
+            "name": "Uruguay",
+            "goals": 58,
+            "match": 136,
+            "ratio": 0.43,
+            "start": "2008–2022"
+        }
+    },
+    {
+        "name": "Aleksandar Mitrović",
+        "country": { "name": "Serbia", "goals": 57, "match": 87, "ratio": 0.66, "start": "2013–" }
+    },
+    {
+        "name": "Carlos Pavón",
+        "country": {
+            "name": "Honduras",
+            "goals": 57,
+            "match": 101,
+            "ratio": 0.56,
+            "start": "1993–2010"
+        }
+    },
+    {
+        "name": "Clint Dempsey",
+        "country": {
+            "name": "United States",
+            "goals": 57,
+            "match": 141,
+            "ratio": 0.4,
+            "start": "2004–2018"
+        }
+    },
+    {
+        "name": "Younis Mahmoud",
+        "country": {
+            "name": "Iraq",
+            "goals": 57,
+            "match": 148,
+            "ratio": 0.39,
+            "start": "2002–2016"
+        }
+    },
+    {
+        "name": "Landon Donovan",
+        "country": {
+            "name": "United States",
+            "goals": 57,
+            "match": 157,
+            "ratio": 0.36,
+            "start": "2000–2014"
+        }
+    },
+    {
+        "name": "Gabriel Batistuta",
+        "country": {
+            "name": "Argentina",
+            "goals": 56,
+            "match": 78,
+            "ratio": 0.72,
+            "start": "1991–2002"
+        }
+    },
+    {
+        "name": "Mohamed Salah",
+        "country": { "name": "Egypt", "goals": 56, "match": 0, "ratio": 0.58, "start": "2011–" }
+    },
+    {
+        "name": "Samuel Eto'o",
+        "country": {
+            "name": "Cameroon",
+            "goals": 56,
+            "match": 118,
+            "ratio": 0.47,
+            "start": "1997–2014"
+        }
+    },
+    {
+        "name": "Olivier Giroud",
+        "country": { "name": "France", "goals": 56, "match": 129, "ratio": 0.43, "start": "2011–" }
+    },
+    {
+        "name": "Bader Al-Mutawa",
+        "country": {
+            "name": "Kuwait",
+            "goals": 56,
+            "match": 196,
+            "ratio": 0.29,
+            "start": "2003–2022"
+        }
+    },
+    {
+        "name": " Romário",
+        "country": {
+            "name": "Brazil",
+            "goals": 55,
+            "match": 70,
+            "ratio": 0.79,
+            "start": "1987–2005"
+        }
+    },
+    {
+        "name": "Kazuyoshi Miura",
+        "country": {
+            "name": "Japan",
+            "goals": 55,
+            "match": 89,
+            "ratio": 0.62,
+            "start": "1990–2000"
+        }
+    },
+    {
+        "name": "Jan Koller",
+        "country": {
+            "name": "Czech Republic",
+            "goals": 55,
+            "match": 91,
+            "ratio": 0.6,
+            "start": "1999–2009"
+        }
+    },
+    {
+        "name": "Iswadi Idris",
+        "country": {
+            "name": "Indonesia",
+            "goals": 55,
+            "match": 97,
+            "ratio": 0.57,
+            "start": "1968–1980"
+        }
+    },
+    {
+        "name": "Fandi Ahmad",
+        "country": {
+            "name": "Singapore",
+            "goals": 55,
+            "match": 101,
+            "ratio": 0.54,
+            "start": "1979–1997"
+        }
+    },
+    {
+        "name": "Joachim Streich",
+        "country": {
+            "name": "East Germany",
+            "goals": 55,
+            "match": 102,
+            "ratio": 0.54,
+            "start": "1969–1984"
+        }
+    },
+    {
+        "name": "Wayne Rooney",
+        "country": {
+            "name": "England",
+            "goals": 53,
+            "match": 120,
+            "ratio": 0.44,
+            "start": "2003–2018"
+        }
+    },
+    {
+        "name": "Poul Nielsen",
+        "country": {
+            "name": "Denmark",
+            "goals": 52,
+            "match": 38,
+            "ratio": 1.37,
+            "start": "1910–1925"
+        }
+    },
+    {
+        "name": "Phil Younghusband",
+        "country": {
+            "name": "Philippines",
+            "goals": 52,
+            "match": 108,
+            "ratio": 0.48,
+            "start": "2006–2019"
+        }
+    },
+    {
+        "name": "Javier Hernández",
+        "country": {
+            "name": "Mexico",
+            "goals": 52,
+            "match": 109,
+            "ratio": 0.48,
+            "start": "2009–2019"
+        }
+    },
+    {
+        "name": "Jon Dahl Tomasson",
+        "country": {
+            "name": "Denmark",
+            "goals": 52,
+            "match": 112,
+            "ratio": 0.46,
+            "start": "1997–2010"
+        }
+    },
+    {
+        "name": "Adnan Al Talyani",
+        "country": {
+            "name": "United Arab Emirates",
+            "goals": 52,
+            "match": 161,
+            "ratio": 0.32,
+            "start": "1983–1997"
+        }
+    },
+    {
+        "name": "Lajos Tichy",
+        "country": {
+            "name": "Hungary",
+            "goals": 51,
+            "match": 72,
+            "ratio": 0.71,
+            "start": "1955–1971"
+        }
+    },
+    {
+        "name": "Lê Công Vinh",
+        "country": {
+            "name": "Vietnam",
+            "goals": 51,
+            "match": 83,
+            "ratio": 0.61,
+            "start": "2004–2016"
+        }
+    },
+    {
+        "name": "Almoez Ali",
+        "country": { "name": "Qatar", "goals": 51, "match": 107, "ratio": 0.48, "start": "2013–" }
+    },
+    {
+        "name": "Asamoah Gyan",
+        "country": {
+            "name": "Ghana",
+            "goals": 51,
+            "match": 109,
+            "ratio": 0.47,
+            "start": "2003–2019"
+        }
+    },
+    {
+        "name": "Hakan Şükür",
+        "country": {
+            "name": "Turkey",
+            "goals": 51,
+            "match": 112,
+            "ratio": 0.46,
+            "start": "1992–2007"
+        }
+    },
+    {
+        "name": "Thierry Henry",
+        "country": {
+            "name": "France",
+            "goals": 51,
+            "match": 123,
+            "ratio": 0.41,
+            "start": "1997–2010"
+        }
+    },
+    {
+        "name": "Alexis Sánchez",
+        "country": { "name": "Chile", "goals": 51, "match": 160, "ratio": 0.32, "start": "2006–" }
+    },
+    {
+        "name": "Sardar Azmoun",
+        "country": { "name": "Iran", "goals": 50, "match": 76, "ratio": 0.66, "start": "2014–" }
+    },
+    {
+        "name": "Karim Bagheri",
+        "country": { "name": "Iran", "goals": 50, "match": 87, "ratio": 0.57, "start": "1993–2010" }
+    },
+    {
+        "name": "Robin van Persie",
+        "country": {
+            "name": "Netherlands",
+            "goals": 50,
+            "match": 102,
+            "ratio": 0.49,
+            "start": "2005–2017"
+        }
+    },
+    {
+        "name": "Hwang Sun-hong",
+        "country": {
+            "name": "South Korea",
+            "goals": 50,
+            "match": 103,
+            "ratio": 0.49,
+            "start": "1988–2002"
+        }
+    },
+    {
+        "name": "Tim Cahill",
+        "country": {
+            "name": "Australia",
+            "goals": 50,
+            "match": 108,
+            "ratio": 0.46,
+            "start": "2004–2018"
+        }
+    },
+    {
+        "name": "Shinji Okazaki",
+        "country": {
+            "name": "Japan",
+            "goals": 50,
+            "match": 119,
+            "ratio": 0.42,
+            "start": "2008–2019"
+        }
+    },
+    {
+        "name": "Zainal Abidin Hassan",
+        "country": {
+            "name": "Malaysia",
+            "goals": 50,
+            "match": 129,
+            "ratio": 0.39,
+            "start": "1980–1997"
+        }
+    }
+]

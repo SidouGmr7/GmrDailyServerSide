@@ -23,7 +23,13 @@ function html($) {
     $selectedTable.find('tr').each((index, row) => {
         replaceHtmlByText($(row).find('td:first-child'), 'a', 'name')
         replaceHtmlByText($(row).find('td:nth-child(2)'), 'a', 'country')
-        replaceHtmlByText($(row).find('td:nth-child(3)'), 'a', 'goals')
+        replaceHtmlByText($(row).find('td:nth-child(3)'), 'a', 'goals', (str) => {
+            let string = str
+            if (!/^\d+$/.test(str)) {
+                string = str.substring(0, 2)
+            }
+            return string
+        })
         replaceHtmlByText($(row).find('td:nth-child(4)'), false, 'match')
         replaceHtmlByText($(row).find('td:nth-child(5)'), false, 'ratio')
         replaceHtmlByText($(row).find('td:nth-child(6)'), false, 'start')
@@ -34,15 +40,21 @@ function html($) {
 }
 
 function json(html) {
-    const playerName = parserHtmlToJSON(html, 'name')
+    const playerName = parserHtmlToJSON(html, 'name', false)
     const country = parserHtmlToJSON(html, 'country', 'name')
-    const goals = parserHtmlToJSON(html, 'goals')
-    const match = parserHtmlToJSON(html, 'match')
-    const ratio = parserHtmlToJSON(html, 'ratio')
-    const start = parserHtmlToJSON(html, 'start')
+    const goals = parserHtmlToJSON(html, 'goals', false, true)
+    const match = parserHtmlToJSON(html, 'match', false, true)
+    const ratio = parserHtmlToJSON(html, 'ratio', false, true)
+    const start = parserHtmlToJSON(html, 'start', false)
     return playerName.map(function (item, index) {
         const merged = Object.assign(item, {
-            country: { ...country[index], ...goals[index], ...match[index], ...ratio[index], ...start[index] },
+            country: {
+                ...country[index],
+                ...goals[index],
+                ...match[index],
+                ...ratio[index],
+                ...start[index],
+            },
         })
         return merged
     })
