@@ -21,25 +21,37 @@ function html($) {
         }
     })
     $selectedTable.find('tr').each((index, row) => {
-        replaceHtmlByText($(row).find('td:first-child'), 'a', 'name')
-        replaceHtmlByText($(row).find('td:nth-child(2)'), 'a', 'country')
-        replaceHtmlByText($(row).find('td:nth-child(3)'), 'a', 'goals')
-        replaceHtmlByText($(row).find('td:nth-child(4)'), false, 'match')
-        replaceHtmlByText($(row).find('td:nth-child(5)'), false, 'ratio')
-        replaceHtmlByText($(row).find('td:nth-child(6)'), false, 'start')
-        replaceHtmlByText($(row).find('td:nth-child(7)'), false, 'fifth')
+        replaceHtmlByText({
+            $targeRow: $(row).find('td:first-child'),
+            className: 'name',
+            targetText: 'a',
+        })
+        replaceHtmlByText({
+            $targeRow: $(row).find('td:nth-child(2)'),
+            className: 'country',
+            targetText: 'a',
+        })
+        replaceHtmlByText({
+            $targeRow: $(row).find('td:nth-child(3)'),
+            className: 'goals',
+            targetText: 'a',
+        })
+        replaceHtmlByText({ $targeRow: $(row).find('td:nth-child(4)'), className: 'match' })
+        replaceHtmlByText({ $targeRow: $(row).find('td:nth-child(5)'), className: 'ratio' })
+        replaceHtmlByText({ $targeRow: $(row).find('td:nth-child(6)'), className: 'start' })
+        replaceHtmlByText({ $targeRow: $(row).find('td:nth-child(7)'), className: 'fifth' })
     })
 
     return $selectedTable.html()
 }
 
 function json(html) {
-    const playerName = parserHtmlToJSON(html, 'name', false)
-    const country = parserHtmlToJSON(html, 'country', 'name')
-    const goals = parserHtmlToJSON(html, 'goals', false, true)
-    const match = parserHtmlToJSON(html, 'match', false, true)
-    const ratio = parserHtmlToJSON(html, 'ratio', false, true)
-    const start = parserHtmlToJSON(html, 'start', false)
+    const playerName = parserHtmlToJSON({ html, selector: 'name' })
+    const country = parserHtmlToJSON({ html, selector: 'country', field: 'name' })
+    const goals = parserHtmlToJSON({ html, selector: 'goals', convert: true })
+    const match = parserHtmlToJSON({ html, selector: 'match', convert: true })
+    const ratio = parserHtmlToJSON({ html, selector: 'ratio', convert: true })
+    const start = parserHtmlToJSON({ html, selector: 'start' })
     return playerName.map(function (item, index) {
         const merged = Object.assign(item, {
             country: {

@@ -1,6 +1,6 @@
 const cheerio = require('cheerio')
 
-function parserHtmlToJSON(html, selector, field = false, convert = false) {
+function parserHtmlToJSON({html, selector, field, convert}) {
     const $ = cheerio.load(html)
     const names = $(`.${selector}`)
         .map((index, element) => {
@@ -26,7 +26,7 @@ function correctionCssSelector(replaces) {
     return `${base}${not}${replace}`
 }
 
-function replaceHtmlByText($targeRow, targetText, className) {
+function replaceHtmlByText({$targeRow, targetText, className}) {
     $targeRow.find('sup').remove()
     if (targetText) {
         let playerNameText = $targeRow.find(targetText).text()

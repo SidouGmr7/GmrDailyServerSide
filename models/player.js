@@ -26,7 +26,7 @@ const playerSchema = new Schema(
             },
             start: {
                 type: String,
-                required: true,
+                required: false,
             },
         },
     },
