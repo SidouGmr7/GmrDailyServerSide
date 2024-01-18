@@ -2,26 +2,23 @@ const fs = require('fs')
 const cheerio = require('cheerio')
 const templates = require('./templates')
 const axios = require('axios')
-const generateGoalsCountry = require('./model/generateGoalsCountry.js')
 
-const { COUNTRY_GOALS_TEMPLATE } = require('./config/config')
-
-async function generateTemplate() {
+async function generateTemplate({ url, dataToJson, dataToHtml, fileName }) {
     try {
         console.log(`  ...wait`)
-        const response = await axios(COUNTRY_GOALS_TEMPLATE)
+        const response = await axios(url)
         const $ = cheerio.load(response.data)
-        const html = generateGoalsCountry.html($)
+        const html = dataToHtml($)
         console.log(`...success`)
-        const PlayerData = generateGoalsCountry.json(html)
-        // fs.writeFileSync(`script/json/countryGoals.html`, html)
-        // fs.writeFileSync(`script/json/countryGoals.json`, JSON.stringify(PlayerData))
+        const PlayerData = dataToJson(html)
+        // fs.writeFileSync(`script/json/${fileName}.html`, html)
+        // fs.writeFileSync(`script/json/${fileName}.json`, JSON.stringify(PlayerData))
         return PlayerData
     } catch (error) {
         console.error(error)
     }
 }
-// generateTemplate()
+// generateTemplate(templates['countryGoals'])
 
 // function fetchCountry() {
 //     return templates.map(

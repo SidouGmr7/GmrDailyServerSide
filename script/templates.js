@@ -1,10 +1,11 @@
 const generateGoalsCountry = require('./model/generateGoalsCountry')
 const { COUNTRY_GOALS_TEMPLATE } = require('./config/config')
 
-const templates = [
-    {
+const templates = {
+    countryGoals: {
         dataToJson: generateGoalsCountry.json,
-        fileName: 'country_golas',
+        dataToHtml: generateGoalsCountry.html,
+        fileName: 'countryGoals',
         url: COUNTRY_GOALS_TEMPLATE,
     },
     // {
@@ -17,6 +18,6 @@ const templates = [
     //     fileName: "playersData",
     //     url: FAKE_URL,
     // },
-]
+}
 
 module.exports = templates

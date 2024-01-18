@@ -1,5 +1,6 @@
 const Player = require('../models/player')
 const { generateTemplate } = require('../script/generate')
+const templates = require('../script/templates')
 const _ = require('lodash')
 // const playerData = require('../script/json/countryGoals.json')
 
@@ -13,10 +14,20 @@ const players_get = async (req, res) => {
 }
 
 const players_create = async (req, res) => {
+    // if (!req?.body?.type) {
+    //     res.status(404).json({ err: 'there is no type of data' })
+    // }
+    const type = req?.body?.type
+    const template = templates[type || 'countryGoals']
+
+    if (!template) {
+        res.status(404).json({ err: 'type invalide' })
+    }
+
     let playerNameUpdated = []
     let playerNameAdded = []
     try {
-        const playerData = await generateTemplate()
+        const playerData = await generateTemplate(template)
         const allData = playerData.map(async (playerItem) => {
             try {
                 const findPlayer = await Player.findOne({ name: playerItem.name })
